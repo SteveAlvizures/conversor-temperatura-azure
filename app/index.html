@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura en Azure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="pagina">
+        <section class="tarjeta">
+            <div class="encabezado">
+                <p class="etiqueta">Aplicacion en la nube</p>
+                <h1>Conversor de Temperatura</h1>
+                <p class="descripcion">
+                    Herramienta web para convertir grados Celsius a Fahrenheit utilizando una arquitectura de dos capas en Microsoft Azure.
+                </p>
+            </div>
+
+            <div class="formulario">
+                <label for="celsius">Temperatura en grados Celsius</label>
+                <input type="number" id="celsius" placeholder="Ejemplo: 25">
+
+                <button onclick="convertirTemperatura()">Convertir temperatura</button>
+            </div>
+
+            <div class="resultado">
+                <p>Resultado de la conversion</p>
+                <h2 id="resultado">Ingrese un valor para realizar la conversion.</h2>
+            </div>
+
+            <div class="capas">
+                <div>
+                    <strong>Capa 1</strong>
+                    <span>Interfaz web</span>
+                </div>
+                <div>
+                    <strong>Capa 2</strong>
+                    <span>API en la nube</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Proyecto desarrollado como aplicacion personalizada en la nube.
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
