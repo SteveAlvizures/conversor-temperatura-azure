@@ -1,0 +1,13 @@
+{
+  "name": "api-conversor-temperatura",
+  "version": "1.0.0",
+  "description": "API para convertir temperatura",
+  "main": "src/functions/convertir.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  },
+  "devDependencies": {}
+}
